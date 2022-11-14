@@ -24,8 +24,8 @@ for (var main_index = 0; main_index < finances.length; main_index++){
     netChange += change
     total += profitLoss
 }
-console.log(netChange)
-console.log(total)
+// console.log(netChange)
+// console.log(total)
 var totalMonths = finances.length;
 var averageChange = netChange / totalMonths
 
