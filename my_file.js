@@ -40,9 +40,9 @@ var averageChange = netChange / totalMonths
 console.log(`Financial Analysis
 --------------------
 Total Months: ${totalMonths}
-Total: ${total}
-Average  Change: ${averageChange}
-Greatest Increase in Profits: ${greatestIncreaseMonth} (${greatestIncrease})
-Greatest Decrease in Profits: ${greatestDecreaseMonth} (${greatestDecrease})`)
+Total: $${total}
+Average  Change: $${averageChange}
+Greatest Increase in Profits: ${greatestIncreaseMonth} ($${greatestIncrease})
+Greatest Decrease in Profits: ${greatestDecreaseMonth} ($${greatestDecrease})`)
 ;
 
