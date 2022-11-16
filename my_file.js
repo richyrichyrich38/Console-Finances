@@ -34,6 +34,8 @@ for (var main_index = 0; main_index < finances.length; main_index++){
 // total months is obtained using the .length property and the average change is obtained by / the net change by no of months
 var totalMonths = finances.length;
 var averageChange = netChange / totalMonths
+// rounded averageChange to the nearest $1
+var averageChangeRounded = Math.round(averageChange)
 
 
 // console logged the outputs in the fashion requested and used template literals to output the data
@@ -41,7 +43,7 @@ console.log(`Financial Analysis
 --------------------
 Total Months: ${totalMonths}
 Total: $${total}
-Average  Change: $${averageChange}
+Average  Change: $${averageChangeRounded}
 Greatest Increase in Profits: ${greatestIncreaseMonth} ($${greatestIncrease})
 Greatest Decrease in Profits: ${greatestDecreaseMonth} ($${greatestDecrease})`)
 ;

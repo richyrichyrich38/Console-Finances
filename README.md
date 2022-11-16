@@ -20,6 +20,7 @@ To say I found this incredibly challenging would be an understatement. The code 
 - calculates the accumulated change and adds it to netChange array ready for / with no of months
 - total numeric value of finances is added to total array
 - total months is obtained using the .length property and the average change is obtained by / the net change by no of months
+- rounded average change to the nearest $1
 - console logged the outputs in the fashion requested and used template literals to output the data
 
 
